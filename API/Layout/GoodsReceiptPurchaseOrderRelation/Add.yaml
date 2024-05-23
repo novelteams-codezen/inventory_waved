@@ -1,0 +1,16 @@
+- name: Goods Receipt Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    required: true
+    label: Goods Receipt Id
+    column: 2
+    dataSource: GoodsReceipt
+  - fieldName: PurchaseOrderId
+    dataType: Guid
+    required: true
+    label: Purchase Order Id
+    column: 2
+    dataSource: PurchaseOrder

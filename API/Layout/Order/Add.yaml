@@ -1,0 +1,31 @@
+- name: Order details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: false
+    length: 50
+    label: Code
+    column: 4
+  - fieldName: SupplierId
+    dataType: guid
+    required: false
+    label: Supplier id
+    column: 4
+    dataSource: Supplier
+  - fieldName: Date
+    dataType: datetime
+    required: true
+    label: Date
+    column: 4
+  - fieldName: TotalAmount
+    dataType: numeric
+    required: false
+    label: Total amount
+    column: 4
+  - fieldName: IsPaid
+    dataType: boolean
+    required: false
+    label: Is paid
+    column: 4

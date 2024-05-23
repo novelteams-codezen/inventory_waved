@@ -1,0 +1,42 @@
+- name: Product Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: ProductBatchId
+    dataType: Guid
+    required: true
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: BatchNumber
+    dataType: String
+    required: true
+    label: Batch Number
+    column: 2
+  - fieldName: BatchQuantity
+    dataType: Numeric
+    required: true
+    label: Batch Quantity
+    column: 2
+  - fieldName: CostPrice
+    dataType: Numeric
+    required: true
+    label: Cost Price
+    column: 2
+  - fieldName: ReceiptDate
+    dataType: DateTime
+    required: true
+    label: Receipt Date
+    column: 2
+  - fieldName: LocationId
+    dataType: Guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location

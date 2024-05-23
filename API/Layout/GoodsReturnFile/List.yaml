@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: GoodsReturnCode
+      dataType: string
+      label: Goods Return Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 4
+    - fieldName: FileName
+      dataType: string
+      label: File Name
+      column: 4
+    - fieldName: FileExtension
+      dataType: string
+      label: File Extension
+      column: 4
+    - fieldName: MimeType
+      dataType: string
+      label: Mime Type
+      column: 4
+filter:
+  fields:
+  - fieldName: GoodsReturnCode
+    dataType: string
+    label: Goods Return Code
+    column: 4
+  - fieldName: Title
+    dataType: string
+    label: Title
+    column: 4

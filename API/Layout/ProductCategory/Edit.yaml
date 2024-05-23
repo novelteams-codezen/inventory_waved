@@ -1,0 +1,34 @@
+- name: Product category details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: false
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: string
+    required: true
+    label: Name
+    column: 2
+- name: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: IsStandard
+    dataType: boolean
+    required: true
+    label: Is Standard
+    column: 2
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: true
+    label: Created On
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

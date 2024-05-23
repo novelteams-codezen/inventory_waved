@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: OpeningBalanceStatus
+      dataType: numeric
+      label: Opening Balance Status
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: LocationId
+      dataType: guid
+      label: Location Id
+      column: 4
+      dataSource: Location
+    - fieldName: OpeningBalanceDate
+      dataType: datetime
+      label: Opening Balance Date
+      column: 4
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created By
+      column: 4
+      dataSource: User
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated By
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: OpeningBalanceStatus
+    dataType: numeric
+    label: Opening Balance Status
+    column: 4
+  - fieldName: LocationId
+    dataType: guid
+    label: Location Id
+    column: 4
+    dataSource: Location
+  - fieldName: OpeningBalanceDate
+    dataType: datetime
+    label: Opening Balance Date
+    column: 4

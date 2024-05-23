@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: GoodsReceiptId
+      dataType: Guid
+      label: Goods Receipt Id
+      column: 4
+      dataSource: GoodsReceipt
+  cardDetail:
+    fields:
+    - fieldName: FromStep
+      dataType: Numeric
+      label: From Step
+      column: 4
+    - fieldName: ToStep
+      dataType: Numeric
+      label: To Step
+      column: 4
+    - fieldName: TransactionDate
+      dataType: DateTime
+      label: Transaction Date
+      column: 4
+filter:
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    label: Goods Receipt Id
+    column: 4
+    dataSource: GoodsReceipt
+  - fieldName: FromStep
+    dataType: Numeric
+    label: From Step
+    column: 4
+  - fieldName: TransactionDate
+    dataType: DateTime
+    label: Transaction Date
+    column: 4

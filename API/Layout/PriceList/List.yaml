@@ -1,0 +1,31 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: PriceListBaseType
+      dataType: numeric
+      label: Base Type
+      column: 4
+    - fieldName: PricelistStatus
+      dataType: numeric
+      label: Status
+      column: 4
+    - fieldName: StartDate
+      dataType: datetime
+      label: Start Date
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: PriceListBaseType
+    dataType: numeric
+    label: Base Type
+    column: 4

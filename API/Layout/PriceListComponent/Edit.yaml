@@ -1,0 +1,22 @@
+- name: Price List Component Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PriceListId
+    dataType: guid
+    required: true
+    label: Price List
+    column: 2
+    dataSource: PriceList
+  - fieldName: LocationId
+    dataType: guid
+    required: false
+    label: Location
+    column: 2
+    dataSource: Location
+  - fieldName: SupplierId
+    dataType: guid
+    required: false
+    label: Supplier
+    column: 2
+    dataSource: Supplier

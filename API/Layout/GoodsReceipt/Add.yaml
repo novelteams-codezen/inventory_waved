@@ -1,0 +1,47 @@
+- name: Basic Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: String
+    required: true
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: ReceivedDate
+    dataType: DateTime
+    required: true
+    label: Received Date
+    column: 2
+- name: Order and Location
+  type: section
+  column: 4
+  fields:
+  - fieldName: PurchaseOrderNo
+    dataType: String
+    required: false
+    length: 255
+    label: Purchase Order No
+    column: 2
+  - fieldName: LocationId
+    dataType: Guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: SupplierId
+    dataType: Guid
+    required: false
+    label: Supplier Id
+    column: 2
+    dataSource: Supplier
+  - fieldName: Reason
+    dataType: String
+    required: false
+    length: 50
+    label: Reason
+    column: 2

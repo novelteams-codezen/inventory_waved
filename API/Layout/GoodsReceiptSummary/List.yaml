@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductId
+      dataType: Guid
+      label: Product Id
+      column: 4
+      dataSource: Product
+  cardDetail:
+    fields:
+    - fieldName: ProductBatchId
+      dataType: Guid
+      label: Product Batch Id
+      column: 3
+      dataSource: ProductBatch
+    - fieldName: BatchNumber
+      dataType: String
+      label: Batch Number
+      column: 3
+    - fieldName: BatchQuantity
+      dataType: Numeric
+      label: Batch Quantity
+      column: 3
+filter:
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: ProductBatchId
+    dataType: Guid
+    label: Product Batch Id
+    column: 4
+    dataSource: ProductBatch
+  - fieldName: BatchNumber
+    dataType: String
+    label: Batch Number
+    column: 4

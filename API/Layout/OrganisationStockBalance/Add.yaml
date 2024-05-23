@@ -1,0 +1,15 @@
+- name: Organisation Stock Balance Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: Quantity
+    dataType: numeric
+    required: true
+    label: Quantity
+    column: 4

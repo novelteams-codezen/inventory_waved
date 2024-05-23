@@ -1,0 +1,24 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: PriceListId
+      dataType: guid
+      label: Price List ID
+      column: 4
+      dataSource: PriceList
+  cardDetail:
+    fields:
+    - fieldName: LocationId
+      dataType: guid
+      label: Location ID
+      column: 4
+      dataSource: Location
+    - fieldName: PriceListVersionId
+      dataType: guid
+      label: Price List Version ID
+      column: 4
+    - fieldName: SupplierId
+      dataType: guid
+      label: Supplier ID
+      column: 4
+      dataSource: Supplier

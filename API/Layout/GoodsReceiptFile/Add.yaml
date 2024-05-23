@@ -1,0 +1,59 @@
+- name: Goods Receipt Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    required: true
+    label: Goods Receipt Id
+    column: 2
+    dataSource: GoodsReceipt
+  - fieldName: GoodsReceiptCode
+    dataType: String
+    required: true
+    length: 255
+    label: Goods Receipt Code
+    column: 2
+- name: File Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Title
+    dataType: String
+    required: false
+    length: 255
+    label: Title
+    column: 2
+  - fieldName: FileName
+    dataType: String
+    required: false
+    length: 255
+    label: File Name
+    column: 2
+  - fieldName: FileExtension
+    dataType: String
+    required: false
+    length: 255
+    label: File Extension
+    column: 2
+  - fieldName: MimeType
+    dataType: String
+    required: false
+    length: 255
+    label: Mime Type
+    column: 2
+- name: File Storage Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: AzureFilePath
+    dataType: String
+    required: false
+    length: 255
+    label: Azure File Path
+    column: 2
+  - fieldName: Print
+    dataType: Boolean
+    required: true
+    label: Print
+    column: 2

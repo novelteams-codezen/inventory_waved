@@ -1,0 +1,27 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: GoodsReceiptId
+      dataType: Guid
+      label: Goods Receipt Id
+      column: 4
+      dataSource: GoodsReceipt
+  cardDetail:
+    fields:
+    - fieldName: PurchaseOrderId
+      dataType: Guid
+      label: Purchase Order Id
+      column: 3
+      dataSource: PurchaseOrder
+filter:
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    label: Goods Receipt Id
+    column: 4
+    dataSource: GoodsReceipt
+  - fieldName: PurchaseOrderId
+    dataType: Guid
+    label: Purchase Order Id
+    column: 4
+    dataSource: PurchaseOrder

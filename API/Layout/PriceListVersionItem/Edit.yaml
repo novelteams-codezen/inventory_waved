@@ -1,0 +1,30 @@
+- name: Price List Version Item Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PriceListId
+    dataType: guid
+    required: true
+    label: Price List ID
+    column: 2
+    dataSource: PriceList
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product ID
+    column: 2
+    dataSource: Product
+- name: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Price
+    dataType: numeric
+    required: false
+    label: Price
+    column: 2
+  - fieldName: MarkUpMarkDownValue
+    dataType: numeric
+    required: false
+    label: Markup/Markdown Value
+    column: 2

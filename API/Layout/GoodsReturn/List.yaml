@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: GrrNumber
+      dataType: string
+      label: Grr Number
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: LocationId
+      dataType: guid
+      required: true
+      label: Location
+      column: 4
+      dataSource: Location
+    - fieldName: ReturnDate
+      dataType: datetime
+      label: Return Date
+      column: 4
+    - fieldName: SupplierId
+      dataType: guid
+      required: false
+      label: Supplier
+      column: 4
+      dataSource: Supplier
+filter:
+  fields:
+  - fieldName: GrrNumber
+    dataType: string
+    label: Grr Number
+    column: 4
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location
+    column: 4
+    dataSource: Location

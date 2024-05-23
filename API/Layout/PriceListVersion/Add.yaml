@@ -1,0 +1,34 @@
+- name: Price List Version Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PriceListId
+    dataType: guid
+    required: true
+    label: Price List ID
+    column: 2
+    dataSource: PriceList
+  - fieldName: Version
+    dataType: numeric
+    required: true
+    label: Version
+    column: 2
+- name: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: false
+    label: Name
+    column: 2
+  - fieldName: StartDate
+    dataType: datetime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: datetime
+    required: false
+    label: End Date
+    column: 2

@@ -1,0 +1,25 @@
+- name: Price List Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PriceListBaseType
+    dataType: numeric
+    required: true
+    label: Base Type
+    column: 2
+  - fieldName: PricelistType
+    dataType: numeric
+    required: false
+    label: Pricelist Type
+    column: 2
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 255
+    label: Name
+    column: 2
+  - fieldName: PricelistStatus
+    dataType: numeric
+    required: true
+    label: Pricelist Status
+    column: 2

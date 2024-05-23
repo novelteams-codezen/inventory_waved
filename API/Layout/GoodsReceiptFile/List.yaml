@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: GoodsReceiptCode
+      dataType: String
+      label: Goods Receipt Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Title
+      dataType: String
+      label: Title
+      column: 3
+    - fieldName: FileName
+      dataType: String
+      label: File Name
+      column: 3
+    - fieldName: FileExtension
+      dataType: String
+      label: File Extension
+      column: 3
+    - fieldName: MimeType
+      dataType: String
+      label: Mime Type
+      column: 3
+filter:
+  fields:
+  - fieldName: GoodsReceiptCode
+    dataType: String
+    label: Goods Receipt Code
+    column: 4
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 4
+  - fieldName: FileName
+    dataType: String
+    label: File Name
+    column: 4

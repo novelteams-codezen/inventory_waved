@@ -1,0 +1,27 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: ProductUomType
+      dataType: Numeric
+      label: Product UOM Type
+      column: 4
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductUomType
+    dataType: Numeric
+    label: Product UOM Type
+    column: 4
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4

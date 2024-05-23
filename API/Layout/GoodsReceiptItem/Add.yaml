@@ -1,0 +1,170 @@
+- name: Goods Receipt Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    required: true
+    label: Goods Receipt Id
+    column: 2
+    dataSource: GoodsReceipt
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: ProductBatchId
+    dataType: Guid
+    required: false
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: ReceivedQuantity
+    dataType: Numeric
+    required: true
+    label: Received Quantity
+    column: 2
+- name: Pricing Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: PackUnitPrice
+    dataType: Numeric
+    required: true
+    label: Pack Unit Price
+    column: 2
+  - fieldName: OrderQuantity
+    dataType: Numeric
+    required: true
+    label: Order Quantity
+    column: 2
+  - fieldName: RemainingQuantity
+    dataType: Numeric
+    required: false
+    label: Remaining Quantity
+    column: 2
+  - fieldName: TotalCost
+    dataType: Numeric
+    required: true
+    label: Total Cost
+    column: 2
+- name: Product Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductUomId
+    dataType: Guid
+    required: false
+    label: Product Uom Id
+    column: 2
+    dataSource: ProductUom
+  - fieldName: LowestUnitQuantity
+    dataType: Numeric
+    required: true
+    label: Lowest Unit Quantity
+    column: 2
+  - fieldName: BatchNumber
+    dataType: String
+    required: false
+    label: Batch Number
+    column: 2
+  - fieldName: ManufactureDate
+    dataType: DateTime
+    required: false
+    label: Manufacture Date
+    column: 2
+  - fieldName: ExpiryDate
+    dataType: DateTime
+    required: false
+    label: Expiry Date
+    column: 2
+- name: Other Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: LineRejected
+    dataType: Boolean
+    required: true
+    label: Line Rejected
+    column: 2
+  - fieldName: Reason
+    dataType: String
+    required: false
+    label: Reason
+    column: 2
+  - fieldName: PurchaseOrderId
+    dataType: Guid
+    required: false
+    label: Purchase Order Id
+    column: 2
+    dataSource: PurchaseOrder
+  - fieldName: PurchaseOrderLineId
+    dataType: Guid
+    required: false
+    label: Purchase Order Line Id
+    column: 2
+    dataSource: PurchaseOrderLine
+  - fieldName: TaxAmount
+    dataType: Numeric
+    required: false
+    label: Tax Amount
+    column: 2
+  - fieldName: ReplacedProductId
+    dataType: Guid
+    required: false
+    label: Replaced Product Id
+    column: 2
+    dataSource: Product
+- name: Advanced Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductBatchId
+    dataType: Guid
+    required: false
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: true
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: true
+    label: Created On
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: Guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: Bonus
+    dataType: Boolean
+    required: true
+    label: Bonus
+    column: 2
+  - fieldName: BatchNumber
+    dataType: String
+    required: false
+    label: Batch Number
+    column: 2
+  - fieldName: ManufactureDate
+    dataType: DateTime
+    required: false
+    label: Manufacture Date
+    column: 2
+  - fieldName: ExpiryDate
+    dataType: DateTime
+    required: false
+    label: Expiry Date
+    column: 2

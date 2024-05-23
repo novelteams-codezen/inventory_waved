@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: SupplierId
+      dataType: guid
+      label: Supplier
+      column: 4
+      dataSource: Supplier
+    - fieldName: Date
+      dataType: datetime
+      label: Date
+      column: 4
+    - fieldName: TotalAmount
+      dataType: numeric
+      label: Total Amount
+      column: 4
+    - fieldName: IsPaid
+      dataType: boolean
+      label: Is Paid
+      column: 4
+filter:
+  fields:
+  - fieldName: Code
+    dataType: string
+    label: Code
+    column: 4
+  - fieldName: SupplierId
+    dataType: guid
+    label: Supplier
+    column: 4
+    dataSource: Supplier
+  - fieldName: Date
+    dataType: datetime
+    label: Date
+    column: 4

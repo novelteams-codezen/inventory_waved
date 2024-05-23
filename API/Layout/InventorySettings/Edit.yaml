@@ -1,0 +1,9 @@
+- name: Stock Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTakeCount
+    dataType: numeric
+    required: true
+    label: Stock Take Count
+    column: 4

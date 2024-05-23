@@ -1,0 +1,28 @@
+- name: Location Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: true
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 255
+    label: Name
+    column: 2
+  - fieldName: CountryId
+    dataType: string
+    required: true
+    length: 255
+    label: Country Id
+    column: 2
+  - fieldName: EmailAddress
+    dataType: string
+    required: true
+    length: 255
+    label: Email Address
+    column: 2

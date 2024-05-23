@@ -1,0 +1,60 @@
+- name: Transaction Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReceiptId
+    dataType: Guid
+    required: true
+    label: Goods Receipt Id
+    column: 2
+    dataSource: GoodsReceipt
+  - fieldName: FromStep
+    dataType: Numeric
+    required: true
+    label: From Step
+    column: 2
+  - fieldName: TransactionDate
+    dataType: DateTime
+    required: true
+    label: Transaction Date
+    column: 2
+- name: Description and Status
+  type: section
+  column: 4
+  fields:
+  - fieldName: TransactionBy
+    dataType: Guid
+    required: true
+    label: Transaction By
+    column: 2
+    dataSource: Transaction
+  - fieldName: Description
+    dataType: String
+    required: true
+    label: Description
+    column: 2
+  - fieldName: Active
+    dataType: Boolean
+    required: true
+    label: Active
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Reason
+    dataType: String
+    required: false
+    label: Reason
+    column: 2
+  - fieldName: ContinueWithoutAssign
+    dataType: Boolean
+    required: false
+    label: Continue Without Assign
+    column: 2
+  - fieldName: AssignedUser
+    dataType: Guid
+    required: false
+    label: Assigned User
+    column: 2
+    dataSource: User

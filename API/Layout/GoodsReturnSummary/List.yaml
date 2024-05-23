@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductCode
+      dataType: string
+      label: Product Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: ProductName
+      dataType: string
+      label: Product Name
+      column: 4
+    - fieldName: BatchNumber
+      dataType: string
+      label: Batch Number
+      column: 4
+    - fieldName: BatchQuantity
+      dataType: numeric
+      label: Batch Quantity
+      column: 4
+    - fieldName: CostPrice
+      dataType: numeric
+      label: Cost Price
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductCode
+    dataType: string
+    label: Product Code
+    column: 4
+  - fieldName: ProductName
+    dataType: string
+    label: Product Name
+    column: 4
+  - fieldName: BatchNumber
+    dataType: string
+    label: Batch Number
+    column: 4

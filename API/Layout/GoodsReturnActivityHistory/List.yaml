@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Id
+      dataType: guid
+      label: Id
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: GoodsReturnId
+      dataType: guid
+      label: Goods Return Id
+      column: 4
+      dataSource: GoodsReturn
+    - fieldName: Step
+      dataType: numeric
+      label: Step
+      column: 4
+    - fieldName: TransactionDate
+      dataType: datetime
+      label: Transaction Date
+      column: 4
+    - fieldName: TransactionBy
+      dataType: guid
+      label: Transaction By
+      column: 4
+      dataSource: Transaction
+filter:
+  fields:
+  - fieldName: GoodsReturnId
+    dataType: guid
+    label: Goods Return Id
+    column: 4
+  - fieldName: Step
+    dataType: numeric
+    label: Step
+    column: 4
+  - fieldName: TransactionDate
+    dataType: datetime
+    label: Transaction Date
+    column: 4

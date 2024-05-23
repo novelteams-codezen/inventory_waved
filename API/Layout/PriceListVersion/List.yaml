@@ -1,0 +1,26 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: PriceListId
+      dataType: guid
+      label: Price List ID
+      column: 4
+      dataSource: PriceList
+  cardDetail:
+    fields:
+    - fieldName: Version
+      dataType: numeric
+      label: Version
+      column: 4
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+    - fieldName: StartDate
+      dataType: datetime
+      label: Start Date
+      column: 4
+    - fieldName: EndDate
+      dataType: datetime
+      label: End Date
+      column: 4

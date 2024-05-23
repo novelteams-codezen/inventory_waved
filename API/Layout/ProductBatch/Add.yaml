@@ -1,0 +1,66 @@
+- name: Basic Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: LocationId
+    dataType: Guid
+    required: true
+    label: Location Id
+    column: 4
+    dataSource: Location
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: PurchaseValue
+    dataType: Numeric
+    required: true
+    label: Purchase Value
+    column: 4
+  - fieldName: ProductUomId
+    dataType: Guid
+    required: true
+    label: Product Uom Id
+    column: 4
+    dataSource: ProductUom
+  - fieldName: BatchQuantity
+    dataType: Numeric
+    required: true
+    label: Batch Quantity
+    column: 4
+  - fieldName: PackReceiptQuantity
+    dataType: Numeric
+    required: true
+    label: Pack Receipt Quantity
+    column: 4
+  - fieldName: PackUnitPrice
+    dataType: Numeric
+    required: true
+    label: Pack Unit Price
+    column: 4
+  - fieldName: UnitPrice
+    dataType: Numeric
+    required: true
+    label: Unit Price
+    column: 4
+  - fieldName: ExpiryDate
+    dataType: DateTime
+    required: true
+    label: Expiry Date
+    column: 4
+  - fieldName: ManufactureDate
+    dataType: DateTime
+    required: true
+    label: Manufacture Date
+    column: 4
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: BatchNumber
+    dataType: String
+    required: false
+    label: Batch Number
+    column: 4

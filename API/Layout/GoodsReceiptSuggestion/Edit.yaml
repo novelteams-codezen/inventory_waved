@@ -1,0 +1,21 @@
+- name: Product Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: LocationId
+    dataType: Guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location
+  - fieldName: Count
+    dataType: Numeric
+    required: true
+    label: Count
+    column: 2

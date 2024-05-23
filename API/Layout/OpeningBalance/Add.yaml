@@ -1,0 +1,20 @@
+- name: Opening Balance Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 4
+    dataSource: Location
+  - fieldName: OpeningBalanceStatus
+    dataType: numeric
+    required: true
+    label: Opening Balance Status
+    column: 4
+  - fieldName: OpeningBalanceDate
+    dataType: datetime
+    required: true
+    label: Opening Balance Date
+    column: 4

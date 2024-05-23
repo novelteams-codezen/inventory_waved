@@ -1,0 +1,35 @@
+- name: Step Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: FromStep
+    dataType: numeric
+    required: true
+    label: From Step
+    column: 2
+  - fieldName: ToStep
+    dataType: numeric
+    required: true
+    label: To Step
+    column: 2
+  - fieldName: ToStepText
+    dataType: string
+    required: true
+    length: 255
+    label: To Step Text
+    column: 2
+  - fieldName: StepType
+    dataType: numeric
+    required: true
+    label: Step Type
+    column: 2
+  - fieldName: Sequence
+    dataType: numeric
+    required: true
+    label: Sequence
+    column: 2
+  - fieldName: ConfigureAssignment
+    dataType: boolean
+    required: false
+    label: Configure Assignment
+    column: 2

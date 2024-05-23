@@ -1,0 +1,37 @@
+- name: Essential Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GrrNumber
+    dataType: string
+    required: true
+    length: 255
+    label: Grr Number
+    column: 2
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location
+    column: 2
+    dataSource: Location
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ReturnDate
+    dataType: datetime
+    required: false
+    label: Return Date
+    column: 2
+  - fieldName: SupplierId
+    dataType: guid
+    required: false
+    label: Supplier
+    column: 2
+    dataSource: Supplier
+  - fieldName: SubReasonId
+    dataType: guid
+    required: false
+    label: Sub Reason
+    column: 2
+    dataSource: SubReason

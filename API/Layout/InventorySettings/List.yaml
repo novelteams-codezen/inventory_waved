@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockTakeCount
+      dataType: numeric
+      label: Stock Take Count
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created By
+      column: 4
+      dataSource: User
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated By
+      column: 4
+      dataSource: User
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: StockTakeCount
+    dataType: numeric
+    label: Stock Take Count
+    column: 4

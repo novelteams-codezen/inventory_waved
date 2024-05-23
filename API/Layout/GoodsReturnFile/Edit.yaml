@@ -1,0 +1,66 @@
+- name: Essential Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReturnId
+    dataType: guid
+    required: true
+    label: Goods Return Id
+    column: 2
+    dataSource: GoodsReturn
+  - fieldName: GoodsReturnCode
+    dataType: string
+    required: true
+    length: 255
+    label: Goods Return Code
+    column: 2
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 255
+    label: Title
+    column: 2
+  - fieldName: FileName
+    dataType: string
+    required: false
+    length: 255
+    label: File Name
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: FileExtension
+    dataType: string
+    required: false
+    length: 255
+    label: File Extension
+    column: 2
+  - fieldName: MimeType
+    dataType: string
+    required: false
+    length: 255
+    label: Mime Type
+    column: 2
+  - fieldName: AzureFilePath
+    dataType: string
+    required: false
+    length: 255
+    label: Azure File Path
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: true
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: true
+    label: Created On
+    column: 2
+  - fieldName: Print
+    dataType: boolean
+    required: true
+    label: Print
+    column: 2

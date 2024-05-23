@@ -1,0 +1,29 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+    - fieldName: Price
+      dataType: numeric
+      label: Price
+      column: 4
+    - fieldName: Default
+      dataType: boolean
+      label: Default
+      column: 4
+    - fieldName: IsStandard
+      dataType: boolean
+      label: Is Standard
+      column: 4
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4

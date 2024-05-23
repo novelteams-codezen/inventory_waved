@@ -1,0 +1,166 @@
+- name: Basic Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: false
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: string
+    required: true
+    label: Name
+    length: 255
+    column: 2
+  - fieldName: Price
+    dataType: numeric
+    required: false
+    label: Price
+    column: 2
+  - fieldName: Default
+    dataType: boolean
+    required: true
+    label: Default
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    label: CreatedBy
+    dataSource: User
+    column: 4
+  - fieldName: IsStandard
+    dataType: boolean
+    required: true
+    label: Is Standard
+    column: 2
+  - fieldName: EntityCode
+    dataType: string
+    required: false
+    label: Entity Code
+    column: 2
+  - fieldName: EntitySubTypeCode
+    dataType: string
+    required: false
+    label: Entity Sub Type Code
+    column: 2
+  - fieldName: HSNCode
+    dataType: string
+    required: false
+    label: HSN Code
+    column: 2
+  - fieldName: Description
+    dataType: string
+    required: false
+    label: Description
+    column: 2
+  - fieldName: SellingStartDate
+    dataType: datetime
+    required: false
+    label: Selling Start Date
+    column: 2
+  - fieldName: SellingEndDate
+    dataType: datetime
+    required: false
+    label: Selling End Date
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductManufactureId
+    dataType: guid
+    required: false
+    label: Product Manufacture Id
+    column: 2
+    dataSource: ProductManufacture
+  - fieldName: ProductCategoryId
+    dataType: guid
+    required: false
+    label: Product Category Id
+    column: 2
+    dataSource: ProductCategory
+  - fieldName: ProductType
+    dataType: numeric
+    required: false
+    label: Product Type
+    column: 2
+  - fieldName: Inventoried
+    dataType: boolean
+    required: false
+    label: Inventoried
+    column: 2
+  - fieldName: ProductFormulationId
+    dataType: guid
+    required: false
+    label: Product Formulation Id
+    column: 2
+    dataSource: ProductFormulation
+  - fieldName: ScheduleDrug
+    dataType: numeric
+    required: false
+    label: Schedule Drug
+    column: 2
+  - fieldName: ProductClassificationId
+    dataType: guid
+    required: false
+    label: Product Classification Id
+    column: 2
+    dataSource: ProductClassification
+  - fieldName: LowestUOM
+    dataType: guid
+    required: false
+    label: Lowest UOM
+    column: 2
+    dataSource: UOM
+  - fieldName: BaseType
+    dataType: numeric
+    required: false
+    label: Base Type
+    column: 2
+  - fieldName: Status
+    dataType: boolean
+    required: false
+    label: Status
+    column: 2
+  - fieldName: ReOrderLevel
+    dataType: numeric
+    required: false
+    label: Reorder Level
+    column: 2
+  - fieldName: ReOrderQuantity
+    dataType: numeric
+    required: false
+    label: Reorder Quantity
+    column: 2
+  - fieldName: GstCategory
+    dataType: string
+    required: false
+    label: GST Category
+    column: 2
+  - fieldName: GSTPercentage
+    dataType: numeric
+    required: false
+    label: GST Percentage
+    column: 2
+  - fieldName: ReOrderQuantityUom
+    dataType: guid
+    required: false
+    label: Reorder Quantity UOM
+    column: 2
+    dataSource: UOM
+  - fieldName: FormulationId
+    dataType: guid
+    required: false
+    label: Product Formulation Id
+    column: 2
+    dataSoyrce: ProductFormulation
+  - fieldName: ComponentType
+    dataType: numeric
+    required: false
+    label: Component Type
+    column: 2
+  - fieldName: Import
+    dataType: boolean
+    required: false
+    label: Import
+    column: 2

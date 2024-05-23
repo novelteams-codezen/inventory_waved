@@ -1,0 +1,32 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: IsStandard
+      dataType: Boolean
+      label: Is Standard
+      column: 4
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedBy
+      dataType: guid
+      label: Updated By
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: IsStandard
+    dataType: Boolean
+    label: Is Standard
+    column: 4

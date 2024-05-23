@@ -1,0 +1,31 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: EmailAddress
+      dataType: string
+      label: Email Address
+      column: 4
+    - fieldName: MobileNumber
+      dataType: string
+      label: Mobile Number
+      column: 4
+    - fieldName: AddressLine1
+      dataType: string
+      label: Address Line 1
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: EmailAddress
+    dataType: string
+    label: Email Address
+    column: 4

@@ -1,0 +1,85 @@
+- name: Essential Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReturnId
+    dataType: guid
+    required: true
+    label: Goods Return Id
+    column: 2
+    dataSource: GoodsReturn
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: ReturnQuantity
+    dataType: numeric
+    required: true
+    label: Return Quantity
+    column: 2
+  - fieldName: UnitPrice
+    dataType: numeric
+    required: true
+    label: Unit Price
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductBatchId
+    dataType: guid
+    required: false
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: ReturnUomType
+    dataType: numeric
+    required: true
+    label: Return UOM Type
+    column: 2
+  - fieldName: GoodsReceiptItemId
+    dataType: guid
+    required: false
+    label: Goods Receipt Item Id
+    column: 2
+    dataSource: GoodsReceiptItem
+  - fieldName: RemainingQuantity
+    dataType: numeric
+    required: false
+    label: Remaining Quantity
+    column: 2
+  - fieldName: TotalQuantity
+    dataType: numeric
+    required: false
+    label: Total Quantity
+    column: 2
+  - fieldName: TotalAmount
+    dataType: numeric
+    required: false
+    label: Total Amount
+    column: 2
+  - fieldName: LineRejected
+    dataType: boolean
+    required: false
+    label: Line Rejected
+    column: 2
+  - fieldName: Reason
+    dataType: string
+    required: false
+    length: 50
+    label: Reason
+    column: 2
+  - fieldName: SubReasonId
+    dataType: guid
+    required: false
+    label: Sub Reason Id
+    column: 2
+    dataSource: SubReason
+  - fieldName: ProductUomId
+    dataType: guid
+    required: false
+    label: Product UOM Id
+    column: 2
+    dataSource: ProductUom

@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductId
+      dataType: Guid
+      label: Product Id
+      column: 4
+      dataSource: Product
+  cardDetail:
+    fields:
+    - fieldName: ReceivedQuantity
+      dataType: Numeric
+      label: Received Quantity
+      column: 3
+    - fieldName: PackUnitPrice
+      dataType: Numeric
+      label: Pack Unit Price
+      column: 3
+    - fieldName: OrderQuantity
+      dataType: Numeric
+      label: Order Quantity
+      column: 3
+    - fieldName: RemainingQuantity
+      dataType: Numeric
+      label: Remaining Quantity
+      column: 3
+filter:
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: ReceivedQuantity
+    dataType: Numeric
+    label: Received Quantity
+    column: 4
+  - fieldName: OrderQuantity
+    dataType: Numeric
+    label: Order Quantity
+    column: 4

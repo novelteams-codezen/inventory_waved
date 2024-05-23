@@ -1,0 +1,16 @@
+- name: Requisition Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product
+    column: 2
+    dataSource: Product
+  - fieldName: UserId
+    dataType: guid
+    required: true
+    label: User
+    column: 2
+    dataSource: User

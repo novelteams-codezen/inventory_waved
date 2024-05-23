@@ -1,0 +1,46 @@
+- name: Essential Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GoodsReturnId
+    dataType: guid
+    required: true
+    label: Goods Return Id
+    column: 2
+    dataSource: GoodsReturn
+  - fieldName: Step
+    dataType: numeric
+    required: true
+    label: Step
+    column: 2
+  - fieldName: TransactionDate
+    dataType: datetime
+    required: true
+    label: Transaction Date
+    column: 2
+  - fieldName: TransactionBy
+    dataType: guid
+    required: true
+    label: Transaction By
+    column: 2
+    dataSource: Transaction
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Active
+    dataType: boolean
+    required: true
+    label: Active
+    column: 2
+  - fieldName: ContinueWithoutAssign
+    dataType: boolean
+    required: false
+    label: Continue Without Assign
+    column: 2
+  - fieldName: AssignedUser
+    dataType: guid
+    required: false
+    label: Assigned User
+    column: 2
+    dataSource: User
