@@ -1,0 +1,24 @@
+{
+    "environment": {
+        "name": "Local",
+        "production": false
+    },
+    "appInsights": {
+        "instrumentationKey": ""
+    },
+    "logging": {
+        "console": true,
+        "appInsights": false
+    },
+    "api": {
+        "url": "https://codezenapi.azurewebsites.net"
+    },
+    "app": {
+        "title": "inventory_waved"
+    },
+    "buildInfo": {
+        "number": "1.0.0.0",
+        "createdOn": "Thursday, May 23, 2024 7:38:45 AM"
+    },
+    "environments": []
+}
