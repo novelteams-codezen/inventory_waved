@@ -1,0 +1,34 @@
+- name: Product Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+- name: User Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: UserId
+    dataType: Guid
+    required: true
+    label: User Id
+    column: 2
+    dataSource: User
+- name: Quantity and Status
+  type: section
+  column: 4
+  fields:
+  - fieldName: Quantity
+    dataType: Numeric
+    required: true
+    label: Quantity
+    column: 2
+  - fieldName: Status
+    dataType: String
+    required: true
+    label: Status
+    column: 2

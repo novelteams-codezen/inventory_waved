@@ -1,0 +1,31 @@
+- name: Basic Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: String
+    required: false
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: String
+    required: false
+    length: 255
+    label: Name
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Description
+    dataType: String
+    required: false
+    length: 255
+    label: Description
+    column: 2
+  - fieldName: Authorization
+    dataType: Boolean
+    required: false
+    label: Authorization
+    column: 2

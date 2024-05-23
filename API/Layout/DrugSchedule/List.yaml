@@ -1,0 +1,31 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Code
+      dataType: String
+      label: Code
+      column: 4
+    - fieldName: Description
+      dataType: String
+      label: Description
+      column: 4
+    - fieldName: Authorization
+      dataType: Boolean
+      label: Authorization
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: Code
+    dataType: String
+    label: Code
+    column: 4
