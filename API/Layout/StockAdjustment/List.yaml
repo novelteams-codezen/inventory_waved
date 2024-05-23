@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: AdjustmentDate
+      dataType: datetime
+      label: Adjustment Date
+      column: 4
+    - fieldName: LocationId
+      dataType: guid
+      label: Location Id
+      column: 4
+      dataSource: Location
+    - fieldName: Status
+      dataType: numeric
+      label: Status
+      column: 4
+filter:
+  fields:
+  - fieldName: Code
+    dataType: string
+    label: Code
+    column: 4
+  - fieldName: AdjustmentDate
+    dataType: datetime
+    label: Adjustment Date
+    column: 4
+  - fieldName: LocationId
+    dataType: guid
+    label: Location Id
+    column: 4
+    dataSource: Location

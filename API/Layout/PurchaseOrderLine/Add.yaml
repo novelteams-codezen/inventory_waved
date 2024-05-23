@@ -1,0 +1,53 @@
+- name: Order Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PurchaseOrderId
+    dataType: guid
+    required: true
+    label: Purchase Order Id
+    column: 2
+    dataSource: PurchaseOrder
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: OrderQuantity
+    dataType: numeric
+    required: true
+    label: Order Quantity
+    column: 2
+  - fieldName: ProductUomId
+    dataType: guid
+    required: true
+    label: Product Uom Id
+    column: 2
+    dataSource: ProductUom
+  - fieldName: TotalQuantity
+    dataType: numeric
+    required: true
+    label: Total Quantity
+    column: 2
+  - fieldName: LineRejected
+    dataType: boolean
+    required: true
+    label: Line Rejected
+    column: 2
+  - fieldName: Reason
+    dataType: string
+    required: false
+    label: Reason
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: true
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: true
+    label: Created On
+    column: 2

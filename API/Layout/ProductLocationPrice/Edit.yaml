@@ -1,0 +1,21 @@
+- name: Product Location Price Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 4
+    dataSource: Location
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: Price
+    dataType: numeric
+    required: false
+    label: Price
+    column: 4

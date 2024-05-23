@@ -1,0 +1,20 @@
+- name: Product Therapeutic Sub Classification Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductTherapeuticClassificationId
+    dataType: guid
+    required: true
+    label: Product Therapeutic Classification Id
+    column: 2
+    dataSource: ProductTherapeuticClassification
+  - fieldName: DrugSystemOrganTypeId
+    dataType: string
+    required: true
+    label: Drug System Organ Type Id
+    column: 2
+  - fieldName: DrugSystemTherapeuticClassId
+    dataType: string
+    required: true
+    label: Drug System Therapeutic Class Id
+    column: 2

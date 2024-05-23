@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductTherapeuticClassificationId
+      dataType: guid
+      label: Product Therapeutic Classification Id
+      column: 4
+      dataSource: ProductTherapeuticClassification
+  cardDetail:
+    fields:
+    - fieldName: DrugSystemOrganTypeId
+      dataType: string
+      label: Drug System Organ Type Id
+      column: 4
+    - fieldName: DrugSystemTherapeuticClassId
+      dataType: string
+      label: Drug System Therapeutic Class Id
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductTherapeuticClassificationId
+    dataType: guid
+    label: Product Therapeutic Classification Id
+    column: 4
+    dataSource: ProductTherapeuticClassification
+  - fieldName: DrugSystemOrganTypeId
+    dataType: string
+    label: Drug System Organ Type Id
+    column: 4
+  - fieldName: DrugSystemTherapeuticClassId
+    dataType: string
+    label: Drug System Therapeutic Class Id
+    column: 4

@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockAdjustmentId
+      dataType: Guid
+      label: Stock Adjustment Id
+      column: 4
+      dataSource: StockAdjustment
+  cardDetail:
+    fields:
+    - fieldName: StockAdjustmentCode
+      dataType: String
+      label: Stock Adjustment Code
+      column: 4
+    - fieldName: Title
+      dataType: String
+      label: Title
+      column: 4
+    - fieldName: CreatedOn
+      dataType: Datetime
+      label: Created On
+      column: 4
+filter:
+  fields:
+  - fieldName: StockAdjustmentId
+    dataType: Guid
+    label: Stock Adjustment Id
+    column: 4
+    dataSource: StockAdjustment
+  - fieldName: StockAdjustmentCode
+    dataType: String
+    label: Stock Adjustment Code
+    column: 4

@@ -1,0 +1,31 @@
+- name: Requisition Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: RequisitionDate
+    dataType: DateTime
+    required: true
+    label: Requisition Date
+    column: 2
+  - fieldName: Code
+    dataType: String
+    required: true
+    length: 50
+    label: Code
+    column: 2
+- name: Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: LocationId
+    dataType: Guid
+    required: true
+    label: Location ID
+    column: 2
+    dataSource: Location
+  - fieldName: RequestBy
+    dataType: Guid
+    required: true
+    label: Request By
+    column: 2
+    dataSource: User

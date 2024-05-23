@@ -1,0 +1,40 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: PurchaseOrderId
+      dataType: guid
+      label: Purchase Order Id
+      column: 4
+      dataSource: PurchaseOrder
+  cardDetail:
+    fields:
+    - fieldName: ProductId
+      dataType: guid
+      label: Product Id
+      column: 3
+      dataSource: Product
+    - fieldName: OrderQuantity
+      dataType: numeric
+      label: Order Quantity
+      column: 3
+    - fieldName: ProductUomId
+      dataType: guid
+      label: Product Uom Id
+      column: 3
+      dataSource: ProductUom
+    - fieldName: TotalQuantity
+      dataType: numeric
+      label: Total Quantity
+      column: 3
+filter:
+  fields:
+  - fieldName: PurchaseOrderId
+    dataType: guid
+    label: Purchase Order Id
+    column: 4
+    dataSource: PurchaseOrder
+  - fieldName: ProductId
+    dataType: guid
+    label: Product Id
+    column: 4
+    dataSource: Product

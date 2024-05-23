@@ -1,0 +1,30 @@
+- name: Adjustment Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockAdjustmentId
+    dataType: Guid
+    required: true
+    label: Stock Adjustment Id
+    column: 2
+    dataSource: StockAdjustment
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: AdjustedQuantity
+    dataType: Numeric
+    required: true
+    label: Adjusted Quantity
+    column: 2
+  - fieldName: PackUnitPrice
+    dataType: Numeric
+    required: true
+    label: Pack Unit Price
+    column: 2

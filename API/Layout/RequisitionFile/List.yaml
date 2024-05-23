@@ -1,0 +1,40 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Title
+      dataType: String
+      label: Title
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: RequisitionId
+      dataType: Guid
+      label: Requisition ID
+      column: 4
+      dataSource: Requisition
+    - fieldName: FileName
+      dataType: String
+      label: File Name
+      column: 4
+    - fieldName: FileExtension
+      dataType: String
+      label: File Extension
+      column: 4
+    - fieldName: MimeType
+      dataType: String
+      label: Mime Type
+      column: 4
+filter:
+  fields:
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 4
+  - fieldName: FileName
+    dataType: String
+    label: File Name
+    column: 4
+  - fieldName: FileExtension
+    dataType: String
+    label: File Extension
+    column: 4

@@ -1,0 +1,36 @@
+- name: Basic Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: RequisitionId
+    dataType: Guid
+    required: true
+    label: Requisition ID
+    column: 2
+    dataSource: Requisition
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product ID
+    column: 2
+    dataSource: Product
+- name: Order Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: OrderQuantity
+    dataType: Numeric
+    required: true
+    label: Order Quantity
+    column: 2
+  - fieldName: ProductUomId
+    dataType: Guid
+    required: true
+    label: Product UOM ID
+    column: 2
+    dataSource: ProductUom
+  - fieldName: TotalQuantity
+    dataType: Numeric
+    required: true
+    label: Total Quantity
+    column: 2

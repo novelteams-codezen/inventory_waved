@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductId
+      dataType: guid
+      label: Product Id
+      column: 4
+      dataSource: Product
+  cardDetail:
+    fields:
+    - fieldName: UomId
+      dataType: guid
+      label: UOM Id
+      column: 4
+      dataSource: UOM
+    - fieldName: ConversionQuantity
+      dataType: numeric
+      label: Conversion Quantity
+      column: 4
+    - fieldName: Purchase
+      dataType: boolean
+      label: Purchase
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductId
+    dataType: guid
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: UomId
+    dataType: guid
+    label: UOM Id
+    column: 4
+    dataSource: UOM
+  - fieldName: ConversionQuantity
+    dataType: numeric
+    label: Conversion Quantity
+    column: 4

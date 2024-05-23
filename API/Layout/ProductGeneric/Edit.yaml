@@ -1,0 +1,36 @@
+- name: Product Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product ID
+    column: 2
+    dataSource: Product
+  - fieldName: GenericId
+    dataType: string
+    required: true
+    label: Generic ID
+    column: 2
+- name: Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: UOM
+    dataType: guid
+    required: true
+    label: UOM
+    column: 2
+    dataSource: UOM
+  - fieldName: Strength
+    dataType: numeric
+    required: true
+    label: Strength
+    column: 2

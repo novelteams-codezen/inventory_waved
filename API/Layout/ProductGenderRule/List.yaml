@@ -1,0 +1,23 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: AgeFrom
+      dataType: Numeric
+      label: Age From
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: AgeTo
+      dataType: Numeric
+      label: Age To
+      column: 4
+filter:
+  fields:
+  - fieldName: AgeFrom
+    dataType: Numeric
+    label: Age From
+    column: 4
+  - fieldName: AgeTo
+    dataType: Numeric
+    label: Age To
+    column: 4

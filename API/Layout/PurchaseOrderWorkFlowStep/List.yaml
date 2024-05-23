@@ -1,0 +1,21 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: FromStep
+      dataType: numeric
+      label: From Step
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: ToStep
+      dataType: numeric
+      label: To Step
+      column: 3
+    - fieldName: StepType
+      dataType: numeric
+      label: Step Type
+      column: 3
+    - fieldName: Sequence
+      dataType: numeric
+      label: Sequence
+      column: 3

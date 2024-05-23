@@ -1,0 +1,41 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: PurchaseOrderDate
+      dataType: datetime
+      label: Purchase Order Date
+      column: 4
+    - fieldName: LocationId
+      dataType: guid
+      label: Location Id
+      column: 4
+      dataSource: Location
+    - fieldName: OrderBy
+      dataType: guid
+      label: Order By
+      column: 4
+    - fieldName: ExpectedDeliveryDate
+      dataType: datetime
+      label: Expected Delivery Date
+      column: 4
+filter:
+  fields:
+  - fieldName: Code
+    dataType: string
+    label: Code
+    column: 4
+  - fieldName: PurchaseOrderDate
+    dataType: datetime
+    label: Purchase Order Date
+    column: 4
+  - fieldName: LocationId
+    dataType: guid
+    label: Location Id
+    column: 4
+    dataSource: Location

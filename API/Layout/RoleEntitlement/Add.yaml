@@ -1,0 +1,31 @@
+- name: Role Entitlement Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: RoleId
+    dataType: guid
+    required: true
+    label: Role
+    column: 2
+    dataSource: Role
+  - fieldName: Entitlement
+    dataType: numeric
+    required: true
+    label: Entitlement
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: CreatedBy
+    dataType: guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

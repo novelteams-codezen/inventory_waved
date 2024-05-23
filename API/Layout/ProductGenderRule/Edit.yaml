@@ -1,0 +1,14 @@
+- name: Age Range
+  type: section
+  column: 4
+  fields:
+  - fieldName: AgeFrom
+    dataType: numeric
+    required: true
+    label: Age From
+    column: 2
+  - fieldName: AgeTo
+    dataType: numeric
+    required: true
+    label: Age To
+    column: 2

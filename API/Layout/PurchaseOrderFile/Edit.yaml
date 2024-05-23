@@ -1,0 +1,56 @@
+- name: File Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PurchaseOrderId
+    dataType: guid
+    required: true
+    label: Purchase Order Id
+    column: 4
+    dataSource: PurchaseOrder
+  - fieldName: PurchaseOrderCode
+    dataType: string
+    required: true
+    label: Purchase Order Code
+    column: 4
+  - fieldName: Title
+    dataType: string
+    required: false
+    label: Title
+    column: 4
+  - fieldName: FileName
+    dataType: string
+    required: false
+    label: File Name
+    column: 4
+  - fieldName: FileExtension
+    dataType: string
+    required: false
+    label: File Extension
+    column: 4
+  - fieldName: MimeType
+    dataType: string
+    required: false
+    label: Mime Type
+    column: 4
+  - fieldName: AzureFilePath
+    dataType: string
+    required: false
+    label: Azure File Path
+    column: 4
+  - fieldName: CreatedBy
+    dataType: guid
+    required: true
+    label: Created By
+    column: 4
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: datetime
+    required: true
+    label: Created On
+    column: 4
+  - fieldName: Print
+    dataType: boolean
+    required: true
+    label: Print
+    column: 4

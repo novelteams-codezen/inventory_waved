@@ -1,0 +1,38 @@
+- name: Order Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: SupplierId
+    dataType: guid
+    required: true
+    label: Supplier Id
+    column: 2
+    dataSource: Supplier
+  - fieldName: Code
+    dataType: string
+    required: false
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: PurchaseOrderDate
+    dataType: datetime
+    required: true
+    label: Purchase Order Date
+    column: 2
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location
+  - fieldName: OrderBy
+    dataType: guid
+    required: true
+    label: Order By
+    column: 2
+    dataSource: User
+  - fieldName: ExpectedDeliveryDate
+    dataType: datetime
+    required: false
+    label: Expected Delivery Date
+    column: 2

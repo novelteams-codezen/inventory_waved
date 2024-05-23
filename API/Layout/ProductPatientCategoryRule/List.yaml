@@ -1,0 +1,23 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductRuleId
+      dataType: string
+      label: Product Rule Id
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: PatientCategoryId
+      dataType: string
+      label: Patient Category Id
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductRuleId
+    dataType: string
+    label: Product Rule Id
+    column: 4
+  - fieldName: PatientCategoryId
+    dataType: string
+    label: Patient Category Id
+    column: 4

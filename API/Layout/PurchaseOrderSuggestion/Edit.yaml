@@ -1,0 +1,21 @@
+- name: Suggestion Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 4
+    dataSource: Location
+  - fieldName: Count
+    dataType: numeric
+    required: true
+    label: Count
+    column: 4

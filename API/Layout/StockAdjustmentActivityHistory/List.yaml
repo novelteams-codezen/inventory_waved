@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockAdjustmentId
+      dataType: Guid
+      label: Stock Adjustment Id
+      column: 4
+      dataSource: StockAdjustment
+  cardDetail:
+    fields:
+    - fieldName: FromStep
+      dataType: Numeric
+      label: From Step
+      column: 4
+    - fieldName: TransactionDate
+      dataType: Datetime
+      label: Transaction Date
+      column: 4
+    - fieldName: Description
+      dataType: String
+      label: Description
+      column: 4
+filter:
+  fields:
+  - fieldName: StockAdjustmentId
+    dataType: Guid
+    label: Stock Adjustment Id
+    column: 4
+    dataSource: StockAdjustment
+  - fieldName: TransactionDate
+    dataType: Datetime
+    label: Transaction Date
+    column: 4

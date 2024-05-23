@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Entitlement
+      dataType: numeric
+      label: Entitlement
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: EntityId
+      dataType: guid
+      label: Entity
+      column: 4
+      dataSource: Entity
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: Entitlement
+    dataType: numeric
+    label: Entitlement
+    column: 4
+  - fieldName: EntityId
+    dataType: guid
+    label: Entity
+    column: 4
+    dataSource: Entity

@@ -1,0 +1,41 @@
+- name: Requisition Activity
+  type: section
+  column: 4
+  fields:
+  - fieldName: RequisitionId
+    dataType: Guid
+    required: true
+    label: Requisition ID
+    column: 2
+    dataSource: Requisition
+  - fieldName: FromStep
+    dataType: Numeric
+    required: true
+    label: From Step
+    column: 2
+- name: Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: TransactionDate
+    dataType: DateTime
+    required: true
+    label: Transaction Date
+    column: 2
+  - fieldName: Description
+    dataType: String
+    label: Description
+    column: 2
+- name: Additional Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Active
+    dataType: Boolean
+    required: true
+    label: Active
+    column: 2
+  - fieldName: ContinueWithoutAssign
+    dataType: Boolean
+    label: Continue Without Assign
+    column: 2

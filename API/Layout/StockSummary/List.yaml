@@ -1,0 +1,25 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductName
+      dataType: string
+      label: Product Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StartDate
+      dataType: datetime
+      label: Start Date
+      column: 3
+    - fieldName: EndDate
+      dataType: datetime
+      label: End Date
+      column: 3
+    - fieldName: ProductCode
+      dataType: string
+      label: Product Code
+      column: 3
+    - fieldName: UomName
+      dataType: string
+      label: UOM Name
+      column: 3

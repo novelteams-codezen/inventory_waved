@@ -1,0 +1,29 @@
+- name: Workflow Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: FromStep
+    dataType: numeric
+    required: true
+    label: From Step
+    column: 4
+  - fieldName: ToStep
+    dataType: numeric
+    required: true
+    label: To Step
+    column: 4
+  - fieldName: StepType
+    dataType: numeric
+    required: true
+    label: Step Type
+    column: 4
+  - fieldName: Sequence
+    dataType: numeric
+    required: true
+    label: Sequence
+    column: 4
+  - fieldName: ConfigureAssignment
+    dataType: boolean
+    required: false
+    label: Configure Assignment
+    column: 4

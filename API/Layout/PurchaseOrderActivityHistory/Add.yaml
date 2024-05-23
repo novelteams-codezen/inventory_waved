@@ -1,0 +1,30 @@
+- name: Activity Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PurchaseOrderId
+    dataType: guid
+    required: true
+    label: Purchase Order Id
+    column: 4
+    dataSource: PurchaseOrder
+  - fieldName: FromStep
+    dataType: numeric
+    required: true
+    label: From Step
+    column: 4
+  - fieldName: ToStep
+    dataType: numeric
+    required: false
+    label: To Step
+    column: 4
+  - fieldName: TransactionDate
+    dataType: datetime
+    required: true
+    label: Transaction Date
+    column: 4
+  - fieldName: Active
+    dataType: boolean
+    required: true
+    label: Active
+    column: 4

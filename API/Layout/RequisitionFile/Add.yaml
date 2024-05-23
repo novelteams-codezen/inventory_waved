@@ -1,0 +1,30 @@
+- name: Basic Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: RequisitionId
+    dataType: Guid
+    required: true
+    label: Requisition ID
+    column: 2
+    dataSource: Requisition
+  - fieldName: Title
+    dataType: String
+    label: Title
+    column: 2
+- name: File Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: FileName
+    dataType: String
+    label: File Name
+    column: 2
+  - fieldName: FileExtension
+    dataType: String
+    label: File Extension
+    column: 2
+  - fieldName: MimeType
+    dataType: String
+    label: Mime Type
+    column: 2

@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: TransactionDate
+      dataType: DateTime
+      label: Transaction Date
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: FromStep
+      dataType: Numeric
+      label: From Step
+      column: 4
+    - fieldName: Description
+      dataType: String
+      label: Description
+      column: 4
+    - fieldName: Active
+      dataType: Boolean
+      label: Active
+      column: 4
+filter:
+  fields:
+  - fieldName: TransactionDate
+    dataType: DateTime
+    label: Transaction Date
+    column: 4
+  - fieldName: FromStep
+    dataType: Numeric
+    label: From Step
+    column: 4
+  - fieldName: Active
+    dataType: Boolean
+    label: Active
+    column: 4

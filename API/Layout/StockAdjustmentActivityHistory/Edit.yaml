@@ -1,0 +1,29 @@
+- name: Adjustment Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockAdjustmentId
+    dataType: Guid
+    required: true
+    label: Stock Adjustment Id
+    column: 2
+    dataSource: StockAdjustment
+  - fieldName: FromStep
+    dataType: Numeric
+    required: true
+    label: From Step
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: TransactionDate
+    dataType: Datetime
+    required: true
+    label: Transaction Date
+    column: 2
+  - fieldName: Description
+    dataType: String
+    required: true
+    label: Description
+    column: 2

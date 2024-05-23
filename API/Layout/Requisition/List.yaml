@@ -1,0 +1,38 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: String
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: RequisitionDate
+      dataType: DateTime
+      label: Requisition Date
+      column: 4
+    - fieldName: LocationId
+      dataType: Guid
+      label: Location ID
+      column: 4
+      dataSource: Location
+    - fieldName: RequestBy
+      dataType: Guid
+      label: Request By
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: Code
+    dataType: String
+    label: Code
+    column: 4
+  - fieldName: RequisitionDate
+    dataType: DateTime
+    label: Requisition Date
+    column: 4
+  - fieldName: LocationId
+    dataType: Guid
+    label: Location ID
+    column: 4
+    dataSource: Location

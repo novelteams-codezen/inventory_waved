@@ -1,0 +1,25 @@
+- name: Stock adjustment details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: true
+    label: Code
+    column: 2
+  - fieldName: AdjustmentDate
+    dataType: datetime
+    required: false
+    label: Adjustment Date
+    column: 2
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location
+  - fieldName: Status
+    dataType: numeric
+    required: true
+    label: Status
+    column: 2

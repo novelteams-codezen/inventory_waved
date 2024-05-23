@@ -1,0 +1,32 @@
+- name: Product Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductId
+    dataType: Guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: ProductCode
+    dataType: String
+    required: true
+    length: 255
+    label: Product Code
+    column: 2
+- name: Batch Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductBatchId
+    dataType: Guid
+    required: true
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: BatchNumber
+    dataType: String
+    required: true
+    length: 255
+    label: Batch Number
+    column: 2

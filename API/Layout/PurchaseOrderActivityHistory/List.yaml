@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Description
+      dataType: string
+      label: Description
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: FromStep
+      dataType: numeric
+      label: From Step
+      column: 3
+    - fieldName: ToStep
+      dataType: numeric
+      label: To Step
+      column: 3
+    - fieldName: TransactionDate
+      dataType: datetime
+      label: Transaction Date
+      column: 3
+    - fieldName: Active
+      dataType: boolean
+      label: Active
+      column: 3
+filter:
+  fields:
+  - fieldName: Description
+    dataType: string
+    label: Description
+    column: 4
+  - fieldName: FromStep
+    dataType: numeric
+    label: From Step
+    column: 4
+  - fieldName: ToStep
+    dataType: numeric
+    label: To Step
+    column: 4

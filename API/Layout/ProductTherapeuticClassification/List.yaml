@@ -1,0 +1,25 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductId
+      dataType: guid
+      label: Product Id
+      column: 4
+      dataSource: Product
+  cardDetail:
+    fields:
+    - fieldName: DrugSystemOrganTypeId
+      dataType: string
+      label: Drug System Organ Type Id
+      column: 4
+filter:
+  fields:
+  - fieldName: ProductId
+    dataType: guid
+    label: Product Id
+    column: 4
+    dataSource: Product
+  - fieldName: DrugSystemOrganTypeId
+    dataType: string
+    label: Drug System Organ Type Id
+    column: 4

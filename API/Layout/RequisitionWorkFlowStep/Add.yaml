@@ -1,0 +1,28 @@
+- name: Workflow Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: FromStep
+    dataType: Numeric
+    required: true
+    label: From Step
+    column: 2
+  - fieldName: ToStep
+    dataType: Numeric
+    required: true
+    label: To Step
+    column: 2
+- name: Additional Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ToStepText
+    dataType: String
+    required: true
+    label: To Step Text
+    column: 2
+  - fieldName: StepType
+    dataType: Numeric
+    required: true
+    label: Step Type
+    column: 2

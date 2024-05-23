@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: PurchaseOrderCode
+      dataType: string
+      label: Purchase Order Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 3
+    - fieldName: FileName
+      dataType: string
+      label: File Name
+      column: 3
+    - fieldName: FileExtension
+      dataType: string
+      label: File Extension
+      column: 3
+    - fieldName: MimeType
+      dataType: string
+      label: Mime Type
+      column: 3
+filter:
+  fields:
+  - fieldName: PurchaseOrderCode
+    dataType: string
+    label: Purchase Order Code
+    column: 4
+  - fieldName: Title
+    dataType: string
+    label: Title
+    column: 4

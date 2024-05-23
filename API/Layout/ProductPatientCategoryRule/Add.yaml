@@ -1,0 +1,14 @@
+- name: Product Category Rule Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: ProductRuleId
+    dataType: string
+    required: true
+    label: Product Rule Id
+    column: 4
+  - fieldName: PatientCategoryId
+    dataType: string
+    required: true
+    label: Patient Category Id
+    column: 4
