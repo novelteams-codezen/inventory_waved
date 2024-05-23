@@ -1,0 +1,26 @@
+- name: Item Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTransferId
+    dataType: guid
+    required: true
+    label: Stock Transfer Id
+    column: 2
+    DataSource: StockTransfer
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: TransferQuantity
+    dataType: numeric
+    required: true
+    label: Transfer Quantity
+    column: 2
+  - fieldName: UnitPrice
+    dataType: numeric
+    required: true
+    label: Unit Price
+    column: 2

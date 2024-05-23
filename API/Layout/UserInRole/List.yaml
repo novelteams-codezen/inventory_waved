@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: RoleId
+      dataType: guid
+      label: Role
+      column: 4
+      dataSource: Role
+  cardDetail:
+    fields:
+    - fieldName: UserId
+      dataType: guid
+      label: User
+      column: 4
+      dataSource: User
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 4
+    - fieldName: UpdatedOn
+      dataType: datetime
+      label: Updated On
+      column: 4
+filter:
+  fields:
+  - fieldName: RoleId
+    dataType: guid
+    label: Role
+    column: 4
+    dataSource: Role
+  - fieldName: UserId
+    dataType: guid
+    label: User
+    column: 4
+    dataSource: User

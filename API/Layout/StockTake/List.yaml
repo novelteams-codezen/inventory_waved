@@ -1,0 +1,26 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: StockTakeType
+      dataType: numeric
+      label: Stock Take Type
+      column: 3
+    - fieldName: EstimatedTakeCount
+      dataType: numeric
+      label: Estimated Take Count
+      column: 3
+    - fieldName: OngoingCount
+      dataType: numeric
+      label: Ongoing Count
+      column: 3
+    - fieldName: LocationId
+      dataType: guid
+      label: Location Id
+      column: 3
+      dataSource: Location

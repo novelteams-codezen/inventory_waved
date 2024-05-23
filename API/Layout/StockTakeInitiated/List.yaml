@@ -1,0 +1,15 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockTakeId
+      dataType: guid
+      label: Stock Take Id
+      column: 4
+      dataSource: StockTake
+  cardDetail:
+    fields:
+    - fieldName: LocationId
+      dataType: guid
+      label: Location Id
+      column: 3
+      dataSource: Location

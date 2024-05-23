@@ -1,0 +1,23 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockTakeId
+      dataType: guid
+      label: Stock Take Id
+      column: 4
+      dataSource: StockTake
+  cardDetail:
+    fields:
+    - fieldName: ProductId
+      dataType: guid
+      label: Product Id
+      column: 3
+      dataSource: Product
+    - fieldName: TakeCount
+      dataType: numeric
+      label: Take Count
+      column: 3
+    - fieldName: LowestUnitQuantity
+      dataType: numeric
+      label: Lowest Unit Quantity
+      column: 3

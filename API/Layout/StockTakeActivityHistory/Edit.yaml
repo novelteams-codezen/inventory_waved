@@ -1,0 +1,42 @@
+- name: Activity Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Description
+    dataType: string
+    required: true
+    length: 255
+    label: Description
+    column: 2
+  - fieldName: Step
+    dataType: numeric
+    required: true
+    label: Step
+    column: 2
+  - fieldName: TransactionDate
+    dataType: datetime
+    required: true
+    label: Transaction Date
+    column: 2
+  - fieldName: Active
+    dataType: boolean
+    required: true
+    label: Active
+    column: 2
+  - fieldName: Reason
+    dataType: string
+    required: false
+    length: 255
+    label: Reason
+    column: 2
+  - fieldName: ContinueWithoutAssign
+    dataType: boolean
+    required: false
+    label: Continue Without Assign
+    column: 2
+  - fieldName: AssignedUser
+    dataType: guid
+    required: false
+    label: Assigned User
+    column: 2
+    dataSource: User

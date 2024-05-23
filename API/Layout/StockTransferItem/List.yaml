@@ -1,0 +1,23 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockTransferId
+      dataType: guid
+      label: Stock Transfer Id
+      column: 4
+      DataSource: StockTransfer
+  cardDetail:
+    fields:
+    - fieldName: ProductId
+      dataType: guid
+      label: Product Id
+      column: 3
+      dataSource: Product
+    - fieldName: TransferQuantity
+      dataType: numeric
+      label: Transfer Quantity
+      column: 3
+    - fieldName: UnitPrice
+      dataType: numeric
+      label: Unit Price
+      column: 3

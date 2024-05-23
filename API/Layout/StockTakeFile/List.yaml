@@ -1,0 +1,25 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: StockTakeCode
+      dataType: string
+      label: Stock Take Code
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 3
+    - fieldName: FileName
+      dataType: string
+      label: File Name
+      column: 3
+    - fieldName: MimeType
+      dataType: string
+      label: Mime Type
+      column: 3
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 3

@@ -1,0 +1,26 @@
+- name: Stock transfer details
+  type: section
+  column: 4
+  fields:
+  - fieldName: TransferNumber
+    dataType: string
+    required: false
+    label: Transfer Number
+    column: 2
+  - fieldName: TransferDate
+    dataType: datetime
+    required: true
+    label: Transfer Date
+    column: 2
+  - fieldName: LocationFromId
+    dataType: guid
+    required: false
+    label: Location From Id
+    column: 2
+    dataSource: Location
+  - fieldName: LocationToId
+    dataType: guid
+    required: false
+    label: Location To Id
+    column: 2
+    dataSource: Location

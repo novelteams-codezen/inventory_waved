@@ -1,0 +1,26 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Description
+      dataType: string
+      label: Description
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Step
+      dataType: numeric
+      label: Step
+      column: 3
+    - fieldName: TransactionDate
+      dataType: datetime
+      label: Transaction Date
+      column: 3
+    - fieldName: Active
+      dataType: boolean
+      label: Active
+      column: 3
+    - fieldName: AssignedUser
+      dataType: guid
+      label: Assigned User
+      column: 3
+      dataSource: User

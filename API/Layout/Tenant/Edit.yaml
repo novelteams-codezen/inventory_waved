@@ -1,0 +1,32 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: String
+    required: true
+    length: 20
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: String
+    required: false
+    length: 255
+    label: Name
+    column: 2
+- name: Address details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Address1
+    dataType: String
+    required: false
+    length: 255
+    label: Address1
+    column: 2
+  - fieldName: Address2
+    dataType: String
+    required: false
+    length: 255
+    label: Address2
+    column: 2

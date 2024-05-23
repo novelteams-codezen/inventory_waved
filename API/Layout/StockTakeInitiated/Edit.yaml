@@ -1,0 +1,16 @@
+- name: Stock Take Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTakeId
+    dataType: guid
+    required: true
+    label: Stock Take Id
+    column: 2
+    dataSource: StockTake
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location

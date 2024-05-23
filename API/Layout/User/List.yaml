@@ -1,0 +1,35 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: UserName
+      dataType: String
+      label: UserName
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: EmailId
+      dataType: String
+      label: EmailId
+      column: 4
+    - fieldName: IsSuperAdmin
+      dataType: Boolean
+      label: Is Super Admin
+      column: 4
+    - fieldName: Dob
+      dataType: DateTime
+      label: Date of Birth
+      column: 4
+filter:
+  fields:
+  - fieldName: UserName
+    dataType: String
+    label: UserName
+    column: 4
+  - fieldName: EmailId
+    dataType: String
+    label: EmailId
+    column: 4
+  - fieldName: IsSuperAdmin
+    dataType: Boolean
+    label: Is Super Admin
+    column: 4

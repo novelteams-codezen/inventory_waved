@@ -1,0 +1,21 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: TransferNumber
+      dataType: string
+      label: Transfer Number
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Title
+      dataType: string
+      label: Title
+      column: 3
+    - fieldName: FileName
+      dataType: string
+      label: File Name
+      column: 3
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 3

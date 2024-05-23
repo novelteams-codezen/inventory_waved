@@ -1,0 +1,48 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: TransferNumber
+      dataType: string
+      label: Transfer Number
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: TransferDate
+      dataType: datetime
+      label: Transfer Date
+      column: 4
+    - fieldName: LocationFromId
+      dataType: guid
+      label: Location From Id
+      column: 4
+      dataSource: Location
+    - fieldName: LocationToId
+      dataType: guid
+      label: Location To Id
+      column: 4
+      dataSource: Location
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created By
+      column: 4
+      dataSource: User
+filter:
+  fields:
+  - fieldName: TransferNumber
+    dataType: string
+    label: Transfer Number
+    column: 4
+  - fieldName: TransferDate
+    dataType: datetime
+    label: Transfer Date
+    column: 4
+  - fieldName: LocationFromId
+    dataType: guid
+    label: Location From Id
+    column: 4
+    dataSource: Location
+  - fieldName: LocationToId
+    dataType: guid
+    label: Location To Id
+    column: 4
+    dataSource: Location

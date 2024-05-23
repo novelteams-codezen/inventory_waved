@@ -1,0 +1,22 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Description
+      dataType: string
+      label: Description
+      column: 3
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 3
+    - fieldName: CreatedBy
+      dataType: guid
+      label: Created By
+      column: 3
+      dataSource: User

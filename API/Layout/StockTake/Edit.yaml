@@ -1,0 +1,47 @@
+- name: Stock Take Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: string
+    required: true
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: StockTakeType
+    dataType: numeric
+    required: true
+    label: Stock Take Type
+    column: 2
+  - fieldName: ReferenceNo
+    dataType: string
+    required: false
+    length: 255
+    label: Reference No
+    column: 2
+  - fieldName: AdjustmentQuantity
+    dataType: numeric
+    required: false
+    label: Adjustment Quantity
+    column: 2
+  - fieldName: AdjustmentAmount
+    dataType: numeric
+    required: false
+    label: Adjustment Amount
+    column: 2
+  - fieldName: EstimatedTakeCount
+    dataType: numeric
+    required: true
+    label: Estimated Take Count
+    column: 2
+  - fieldName: OngoingCount
+    dataType: numeric
+    required: true
+    label: Ongoing Count
+    column: 2
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location Id
+    column: 2
+    dataSource: Location

@@ -1,0 +1,21 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 3
+    - fieldName: RoomNumber
+      dataType: string
+      label: Room Number
+      column: 3
+    - fieldName: CanBeBooked
+      dataType: boolean
+      label: Can Be Booked
+      column: 3

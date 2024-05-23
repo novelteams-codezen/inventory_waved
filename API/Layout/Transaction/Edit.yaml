@@ -1,0 +1,14 @@
+- name: Transaction details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Date
+    dataType: datetime
+    required: true
+    label: Date
+    column: 2
+  - fieldName: Amount
+    dataType: numeric
+    required: false
+    label: Amount
+    column: 2

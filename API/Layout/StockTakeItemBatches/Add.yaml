@@ -1,0 +1,21 @@
+- name: Stock Take Item Batch Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTakeItemId
+    dataType: guid
+    required: true
+    label: Stock Take Item Id
+    column: 2
+    dataSource: StockTakeItem
+  - fieldName: ProductBatchId
+    dataType: guid
+    required: true
+    label: Product Batch Id
+    column: 2
+    dataSource: ProductBatch
+  - fieldName: LowestUnitQuantity
+    dataType: numeric
+    required: false
+    label: Lowest Unit Quantity
+    column: 2

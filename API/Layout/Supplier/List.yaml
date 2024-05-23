@@ -1,0 +1,43 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: string
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Code
+      dataType: string
+      label: Code
+      column: 4
+    - fieldName: ContactName
+      dataType: string
+      label: Contact Name
+      column: 4
+    - fieldName: Email
+      dataType: string
+      label: Email
+      column: 4
+    - fieldName: Phone
+      dataType: string
+      label: Phone
+      column: 4
+filter:
+  fields:
+  - fieldName: Name
+    dataType: string
+    label: Name
+    column: 4
+  - fieldName: Code
+    dataType: string
+    label: Code
+    column: 4
+  - fieldName: ContactName
+    dataType: string
+    label: Contact Name
+    column: 4
+  - fieldName: Email
+    dataType: string
+    label: Email
+    column: 4

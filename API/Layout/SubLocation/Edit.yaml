@@ -1,0 +1,54 @@
+- name: General Information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 255
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: string
+    required: true
+    length: 255
+    label: Code
+    column: 2
+  - fieldName: RoomNumber
+    dataType: string
+    required: true
+    length: 255
+    label: Room Number
+    column: 2
+  - fieldName: CanBeBooked
+    dataType: boolean
+    required: true
+    label: Can Be Booked
+    column: 2
+  - fieldName: LocationId
+    dataType: guid
+    required: true
+    label: Location
+    column: 2
+  - fieldName: RoomTypeId
+    dataType: string
+    required: true
+    label: Room Type
+    column: 2
+  - fieldName: Floor
+    dataType: string
+    required: false
+    length: 255
+    label: Floor
+    column: 2
+  - fieldName: Ward
+    dataType: string
+    required: false
+    length: 255
+    label: Ward
+    column: 2
+  - fieldName: CanHaveInventory
+    dataType: boolean
+    required: true
+    label: Can Have Inventory
+    column: 2

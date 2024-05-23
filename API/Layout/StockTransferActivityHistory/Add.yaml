@@ -1,0 +1,19 @@
+- name: Activity Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Step
+    dataType: numeric
+    required: true
+    label: Step
+    column: 2
+  - fieldName: TransactionDate
+    dataType: datetime
+    required: true
+    label: Transaction Date
+    column: 2
+  - fieldName: Active
+    dataType: boolean
+    required: true
+    label: Active
+    column: 2

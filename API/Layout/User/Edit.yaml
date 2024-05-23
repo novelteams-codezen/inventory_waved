@@ -1,0 +1,32 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+  - fieldName: UserName
+    dataType: String
+    required: true
+    length: 100
+    label: UserName
+    column: 2
+  - fieldName: EmailId
+    dataType: String
+    required: true
+    length: 100
+    label: EmailId
+    column: 2
+- name: Security details
+  type: section
+  column: 4
+  fields:
+  - fieldName: PasswordHash
+    dataType: String
+    required: true
+    length: 255
+    label: Password Hash
+    column: 2
+  - fieldName: Saltkey
+    dataType: String
+    required: true
+    length: 255
+    label: Saltkey
+    column: 2

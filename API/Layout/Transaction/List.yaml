@@ -1,0 +1,21 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Date
+      dataType: datetime
+      label: Date
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: Amount
+      dataType: numeric
+      label: Amount
+      column: 3
+    - fieldName: Description
+      dataType: string
+      label: Description
+      column: 3
+    - fieldName: CreatedOn
+      dataType: datetime
+      label: Created On
+      column: 3

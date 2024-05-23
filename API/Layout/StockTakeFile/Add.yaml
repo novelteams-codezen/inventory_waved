@@ -1,0 +1,51 @@
+- name: File Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTakeCode
+    dataType: string
+    required: true
+    length: 255
+    label: Stock Take Code
+    column: 2
+  - fieldName: Title
+    dataType: string
+    required: false
+    length: 255
+    label: Title
+    column: 2
+  - fieldName: FileName
+    dataType: string
+    required: false
+    length: 255
+    label: File Name
+    column: 2
+  - fieldName: FileExtension
+    dataType: string
+    required: false
+    length: 255
+    label: File Extension
+    column: 2
+  - fieldName: MimeType
+    dataType: string
+    required: false
+    length: 255
+    label: Mime Type
+    column: 2
+  - fieldName: AzureFilePath
+    dataType: string
+    required: false
+    length: 255
+    label: Azure File Path
+    column: 2
+  - fieldName: CreatedBy
+    dataType: guid
+    required: true
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: Print
+    dataType: boolean
+    required: true
+    label: Print
+    column: 2

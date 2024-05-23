@@ -1,0 +1,23 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: ProductBatchId
+      dataType: guid
+      label: Product Batch Id
+      column: 4
+      dataSource: ProductBatch
+  cardDetail:
+    fields:
+    - fieldName: StockTakeItemId
+      dataType: guid
+      label: Stock Take Item Id
+      column: 3
+      dataSource: StockTakeItem
+    - fieldName: LowestUnitQuantity
+      dataType: numeric
+      label: Lowest Unit Quantity
+      column: 3
+    - fieldName: Variance
+      dataType: numeric
+      label: Variance
+      column: 3

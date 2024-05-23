@@ -1,0 +1,21 @@
+- name: Stock Take Item Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: StockTakeId
+    dataType: guid
+    required: true
+    label: Stock Take Id
+    column: 2
+    dataSource: StockTake
+  - fieldName: ProductId
+    dataType: guid
+    required: true
+    label: Product Id
+    column: 2
+    dataSource: Product
+  - fieldName: TakeCount
+    dataType: numeric
+    required: true
+    label: Take Count
+    column: 2

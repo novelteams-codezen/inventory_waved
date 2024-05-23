@@ -1,0 +1,24 @@
+- name: File Details
+  type: section
+  column: 4
+  fields:
+  - fieldName: TransferNumber
+    dataType: string
+    required: false
+    label: Transfer Number
+    column: 2
+  - fieldName: Title
+    dataType: string
+    required: false
+    label: Title
+    column: 2
+  - fieldName: FileName
+    dataType: string
+    required: false
+    label: File Name
+    column: 2
+  - fieldName: FileExtension
+    dataType: string
+    required: false
+    label: File Extension
+    column: 2
